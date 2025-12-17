@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rajae Bousselham | Thermal & Energy Systems Engineer</title>
-  <meta name="description" content="PhD-trained thermal and energy systems engineer specializing in multiphysics modeling, machine learning, and experimental validation." />
+  <meta name="description" content="PhD-trained thermal and optical systems engineer specializing in multiphysics modeling, machine learning, and experimental validation for energy-efficient materials and systems." />
   <style>
     :root {
       --bg: #ffffff;
@@ -32,11 +32,12 @@
       margin: 0 auto;
       padding: 0 1.5rem;
     }
-    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    h1 { font-size: 2.5rem; margin-bottom: 0.3rem; }
     h2 { font-size: 1.8rem; margin: 3rem 0 1rem; }
     h3 { font-size: 1.2rem; margin: 0 0 0.5rem; }
     p { color: var(--muted); margin: 0.25rem 0 1rem; }
-    .hero p { max-width: 700px; }
+    .hero p { max-width: 750px; }
+    .contact-line { font-size: 0.95rem; color: var(--muted); }
     .cta {
       margin-top: 1.5rem;
       display: flex;
@@ -56,7 +57,7 @@
     section { padding: 3rem 0; }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 1.5rem;
     }
     .card {
@@ -67,7 +68,6 @@
     }
     .card ul { padding-left: 1.1rem; margin: 0.5rem 0 0; }
     .card li { margin-bottom: 0.3rem; color: var(--muted); }
-    .skills ul { columns: 2; }
     footer {
       border-top: 1px solid var(--border);
       padding: 2rem 0;
@@ -81,10 +81,15 @@
 <header>
   <div class="container hero">
     <h1>Rajae Bousselham</h1>
-    <h3>PhD | Thermal & Energy Systems Engineer</h3>
+    <h3>PhD | Thermal & Optical Systems Engineer</h3>
+    <p class="contact-line">
+      Worcester, MA · <a href="mailto:rbousselham@wpi.edu">rbousselham@wpi.edu</a> · (774) 312‑8923 ·
+      <a href="https://www.linkedin.com/in/rajae-bousselham-50349a162/" target="_blank">LinkedIn</a>
+    </p>
     <p>
-      I develop physics-based and data-driven models for passive and adaptive thermal systems, combining multiphysics simulation,
-      machine learning, and experimental validation to improve energy efficiency across climates and applications.
+      PhD-trained engineer with a strong foundation in heat transfer, multiphysics simulation, and experimental validation.
+      I develop finite-element and machine-learning models to optimize energy-efficient materials and systems, with a focus
+      on passive adaptive thermal enclosures, optical coatings, and scalable engineering solutions.
     </p>
     <div class="cta">
       <a class="btn primary" href="#projects">View Projects</a>
@@ -96,109 +101,83 @@
 
 <section id="projects">
   <div class="container">
-    <h2>Selected Projects</h2>
+    <h2>Selected Research & Engineering Projects</h2>
     <div class="grid">
 
       <div class="card">
-        <h3>Multi-Layer Adaptive Thermal Enclosure Optimization</h3>
-        <p><strong>Problem:</strong> Passive enclosures often underperform across diverse climates due to fixed thermal properties.</p>
-        <p><strong>Approach:</strong></p>
+        <h3>Multi‑Layer Passive Adaptive Thermal Enclosures</h3>
+        <p><strong>Objective:</strong> Minimize year‑round energy consumption while reducing material usage across climates.</p>
         <ul>
-          <li>Transient heat transfer modeling in COMSOL</li>
-          <li>Multi-objective optimization (energy use & thickness)</li>
-          <li>Evaluation across Fairbanks, Phoenix, and Baltimore</li>
+          <li>Integrated adaptive conductivity, thermal diodes, SS‑PCM heat storage, and radiative layers</li>
+          <li>Transient COMSOL multiphysics simulations with climate‑specific boundary conditions</li>
+          <li>Multi‑objective optimization for energy demand and enclosure thickness</li>
+          <li>Experimental validation of optimized configurations</li>
         </ul>
-        <p><strong>Key Results:</strong> Identified optimal configurations minimizing annual energy consumption with thickness plateaus beyond 0.5 m.</p>
-        <p><strong>Skills:</strong> Heat transfer, multiphysics simulation, optimization, climate analysis</p>
+        <p><strong>Impact:</strong> Achieved near‑zero annual energy demand with thickness plateaus beyond 0.5 m.</p>
+        <p><strong>Skills:</strong> Heat transfer, multiphysics modeling, optimization, experimental validation</p>
       </div>
 
       <div class="card">
-        <h3>Bio-Inspired SS-PCM Coatings for Passive Thermal Regulation</h3>
-        <p><strong>Problem:</strong> Conventional PCM systems lack spectral selectivity and adaptability.</p>
-        <p><strong>Approach:</strong></p>
+        <h3>Bio‑Inspired SS‑PCM Radiative Coatings</h3>
+        <p><strong>Objective:</strong> Enhance passive thermal regulation using spectrally selective surfaces.</p>
         <ul>
-          <li>Design of surface morphologies inspired by Saharan silver ant and Morpho butterfly</li>
-          <li>Optical property tuning for radiative heating and cooling</li>
+          <li>Analyzed biological surface morphologies and their thermal–optical behavior</li>
+          <li>Built finite‑element COMSOL models with global optimization algorithms</li>
+          <li>Optimized surface features to minimize annual heat demand</li>
+          <li>Validated designs via nanoscale 3D printing, AFM, and FTIR measurements</li>
         </ul>
-        <p><strong>Key Results:</strong> Demonstrated tunable emissivity and improved passive thermal performance.</p>
-        <p><strong>Skills:</strong> Thermo-optical modeling, bio-inspired design, materials engineering</p>
+        <p><strong>Impact:</strong> Demonstrated tunable emissivity and improved passive heating/cooling performance.</p>
+        <p><strong>Skills:</strong> Thermo‑optical modeling, bio‑inspired design, materials characterization</p>
       </div>
 
       <div class="card">
-        <h3>Machine Learning Prediction of Energy Consumption & Thickness</h3>
-        <p><strong>Problem:</strong> Optimization-driven simulations are computationally expensive for personalized designs.</p>
-        <p><strong>Approach:</strong></p>
+        <h3>Machine Learning Surrogate Models for Thermal Design</h3>
+        <p><strong>Objective:</strong> Replace computationally expensive optimization workflows with fast predictors.</p>
         <ul>
-          <li>Neural networks trained on optimization datasets (~1800 points)</li>
-          <li>Hybrid input features including material and geometric parameters</li>
+          <li>Developed neural networks and Random Forest models using ~1800 simulation points</li>
+          <li>Hybrid input features: material properties, geometry, and climate parameters</li>
+          <li>Regression‑based prediction of energy consumption and optimal thickness</li>
         </ul>
-        <p><strong>Key Results:</strong> Accurate prediction of annual energy consumption and optimal layer thickness.</p>
-        <p><strong>Skills:</strong> Python, TensorFlow/Keras, regression, sensitivity analysis</p>
+        <p><strong>Impact:</strong> Enabled rapid, personalized thermal enclosure design guidance.</p>
+        <p><strong>Skills:</strong> Python, TensorFlow, PyTorch, data analysis, ML regression</p>
       </div>
 
       <div class="card">
-        <h3>AFM Characterization of Polymer Blends</h3>
-        <p><strong>Problem:</strong> Distinguishing phase morphology in PS–LDPE blends at the nanoscale.</p>
-        <p><strong>Approach:</strong></p>
+        <h3>Industrial R&D – Saint‑Gobain</h3>
+        <p><strong>Objective:</strong> Improve optical performance and cost‑efficiency of polymer‑based products.</p>
         <ul>
-          <li>AFM phase contrast and force-curve analysis</li>
-          <li>Correlation of mechanical response with material composition</li>
+          <li>Optimized filler type, size, and concentration for polymer films</li>
+          <li>Developed scalable formulations and experimental prototypes</li>
+          <li>Designed and validated high‑resolution pressure sensors under mechanical loading</li>
         </ul>
-        <p><strong>Key Results:</strong> Clear identification of PS and LDPE phases.</p>
-        <p><strong>Skills:</strong> AFM, nanoscale characterization, experimental analysis</p>
+        <p><strong>Impact:</strong> Identified commercially viable filler–matrix combinations and improved sensor resolution.</p>
+        <p><strong>Skills:</strong> Polymer processing, optical characterization, sensor design, experimental testing</p>
       </div>
 
     </div>
   </div>
 </section>
 
-<section class="skills">
+<section id="publications">
+  <div class="container">
+    <h2>Selected Publications</h2>
+    <ul>
+      <li><strong>Bousselham, R.</strong> et al. (2026). Bio‑inspired adaptive SS‑PCM coatings for passive thermal regulation. <em>Solar Energy Materials & Solar Cells</em>.</li>
+      <li>Xiao, Z., <strong>Bousselham, R.</strong> et al. (2025). ML‑optimized thermally responsive SS‑PCM coatings. <em>Energy & Buildings</em>.</li>
+      <li>Diouri, K., <strong>Bousselham, R.</strong> et al. (2020). Milling‑induced stress distributions in asphalt pavements. <em>ASCE JMCE</em>.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
   <div class="container">
     <h2>Technical Skills</h2>
     <div class="grid">
-      <div class="card">
-        <h3>Modeling & Simulation</h3>
-        <ul>
-          <li>Heat transfer (steady & transient)</li>
-          <li>Multiphysics modeling (COMSOL)</li>
-          <li>Thermal optimization</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Data & Machine Learning</h3>
-        <ul>
-          <li>Python, NumPy, Pandas</li>
-          <li>TensorFlow / Keras</li>
-          <li>Regression & sensitivity analysis</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Experimental</h3>
-        <ul>
-          <li>AFM (phase contrast, force curves)</li>
-          <li>Thermo-optical characterization</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Tools</h3>
-        <ul>
-          <li>MATLAB</li>
-          <li>LaTeX</li>
-          <li>Git & GitHub</li>
-        </ul>
-      </div>
+      <div class="card"><h3>Modeling & Simulation</h3><ul><li>COMSOL Multiphysics</li><li>ANSYS Fluent</li><li>Finite Element Methods</li><li>Thermal & optical simulations</li></ul></div>
+      <div class="card"><h3>Programming & ML</h3><ul><li>Python</li><li>TensorFlow & PyTorch</li><li>Data analysis & regression</li></ul></div>
+      <div class="card"><h3>Experimental & Characterization</h3><ul><li>AFM, SEM</li><li>FTIR, UV‑Vis</li><li>Mechanical & optical testing</li></ul></div>
+      <div class="card"><h3>Engineering Tools</h3><ul><li>MATLAB</li><li>AutoCAD, Revit, SolidWorks</li><li>Git & LaTeX</li></ul></div>
     </div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="container">
-    <h2>About</h2>
-    <p>
-      I am a PhD-trained engineer with a civil engineering background, focusing on thermal energy systems and energy-efficient
-      materials for buildings and cold-chain applications. My work bridges physics-based modeling, machine learning, and
-      experimental validation to deliver practical, scalable solutions.
-    </p>
   </div>
 </section>
 
@@ -206,16 +185,12 @@
   <div class="container">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:rbousselham@wpi.edu">rbousselham@wpi.edu</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/rajae-bousselham</a></p>
-    <p>Google Scholar: <a href="#">Add link</a></p>
-    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rajae-bousselham-50349a162/" target="_blank">linkedin.com/in/rajae-bousselham</a></p>
   </div>
 </section>
 
 <footer>
-  <div class="container">
-    © 2025 Rajae Bousselham · Thermal & Energy Systems Engineer
-  </div>
+  <div class="container">© 2025 Rajae Bousselham · Thermal & Optical Systems Engineer</div>
 </footer>
 
 </body>
